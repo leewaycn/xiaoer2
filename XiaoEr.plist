@@ -1,20 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
-<title>TEST</title>
-<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, minimum-scale=1,user-scalable=no,height=device-height, target-densitydpi=1">
-<body>
-
-<h3>For Testing</h3>
-
-<br />
-<br />
-<br />
-<br />
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/leewaycn/xiaoer2/master/XiaoEr.plist">
-  Install "XiaoEr IOS" (IOS)
-</a><br /><br />
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://103.243.181.99/xiaoer/XiaoEr.ipa</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>agewnet.XiaoEr</string>
+				<key>bundle-version</key>
+				<string>1.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>XiaoEr</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
